@@ -1,0 +1,70 @@
+body {
+  font-family: "Courier New", monospace;
+  background-color: #c0c0c0;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background: linear-gradient(to right, #000080, #0000ff);
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  font-size: 28px;
+  border-bottom: 2px solid #000080;
+}
+
+#forum {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.post {
+  background-color: #f0f0f0;
+  border: 1px solid #000080;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post strong {
+  display: block;
+  font-weight: bold;
+  color: #000080;
+  margin-bottom: 5px;
+}
+
+.post em {
+  font-size: 0.8em;
+  color: #333;
+}
+
+form {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #000080;
+  background-color: #e0e0e0;
+}
+
+form input, form textarea {
+  width: 100%;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #000080;
+  background-color: #fff;
+}
+
+form button {
+  background-color: #000080;
+  color: #fff;
+  border: 1px solid #000000;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0000ff;
+  }
